@@ -35,22 +35,21 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/alihanzla786",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/alihanzla", // Update if needed
   gmail: "alibilal5610@gmail.com",
   whatsapp: "https://wa.me/923009706998",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/alihanzla786", // Update if needed
   snapchat: "https://www.snapchat.com/add/ali.hanzla",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  telegram: "https://t.me/alihanzla",
+  display: true // Set true to display this section
 };
+
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE WORDPRESS DEVELOPER & ACCA STUDENT — CREATING MODERN, SEO-OPTIMIZED WEBSITES FOR CLIENTS WORLDWIDE THROUGH FREELANCING",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -64,89 +63,78 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+ softwareSkills: [
+  {
+    skillName: "WordPress",
+    fontAwesomeClassname: "fab fa-wordpress"
+  },
+  {
+    skillName: "Elementor",
+    fontAwesomeClassname: "fas fa-puzzle-piece" // Placeholder icon for Elementor
+  },
+  {
+    skillName: "HTML5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "GitHub",
+    fontAwesomeClassname: "fab fa-github"
+  },
+  {
+    skillName: "Adobe Photoshop",
+    fontAwesomeClassname: "fas fa-image" // No official logo, using image icon
+  },
+  {
+    skillName: "Adobe Illustrator",
+    fontAwesomeClassname: "fas fa-pen-nib" // No official logo, using pen-nib icon
+  },
+  {
+    skillName: "VS Code",
+    fontAwesomeClassname: "fas fa-code"
+  }
+],
+display: true
+
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Association of Chartered Certified Accountants (ACCA)",
+      logo: require("./assets/images/accaLogo.png"), // Aap custom ACCA logo PNG rakh sakte hain
+      subHeader: "Pursuing ACCA Qualification",
+      duration: "2025 - Present",
+      desc: "Studying to become a qualified Chartered Certified Accountant with a focus on financial reporting, auditing, and business management.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Goal: Placement in Big 4 firms",
+        "Learning core principles of international accounting"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "BISE Multan",
+      logo: require("./assets/images/multanBoardLogo.png"), // Aapka custom Multan board logo
+      subHeader: "Matriculation (Science Group)",
+      duration: "Completed in 2024", // Adjust if needed
+      desc: "Successfully completed matriculation from Board of Intermediate and Secondary Education, Multan.",
+      descBullets: []
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
